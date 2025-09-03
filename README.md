@@ -67,7 +67,7 @@ Ensured the accordion, hover effects, and overall content remained fully readabl
 
 ### Built with
 
-- Semantic HTML5 markup (header, div, <details>/<summary>)
+- Semantic HTML5 markup (header, div, details, summary)
 
 - CSS custom properties and Flexbox for layout and alignment
 
