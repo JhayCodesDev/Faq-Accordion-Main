@@ -61,7 +61,7 @@ Styled the attribution section to match the overall design.
 
 Used a desktop-first approach, designing for larger screens first.
 
-Applied media queries for smaller devices (320px–400px) to adjust widths, font sizes, and spacing.
+Applied media queries for smaller devices (320px–767.5px) to adjust widths, font sizes, and spacing.
 
 Ensured the accordion, hover effects, and overall content remained fully readable and visually appealing on mobile devices.
 
