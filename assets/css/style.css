@@ -1,0 +1,127 @@
+ @font-face {
+    font-family: 'Work Sans';
+    src: url(/assets/fonts/static/WorkSans-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url(/assets/fonts/static/WorkSans-SemiBold.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url(/assets/fonts/static/WorkSans-Bold.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Work Sans';
+    font-size: 16px;
+    font-weight: 400px;
+    background-color: hsl(275, 100%, 97%);
+    min-height: 100vh;
+    margin: 0;
+}
+
+header{
+    background-image: url(../images/background-pattern-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 330px;
+    background-position: -130px 0px;
+}
+
+#container{
+    padding: 5px 24px 5px 24px;
+    border-radius: 12px;
+    width: 460px;
+    background-color: hsl(0, 100%, 100%);
+    margin: -155px auto;
+}
+
+#container h1{
+    font-weight: 700;
+    margin-left: 20px;
+    padding: 0px;
+}
+
+.star{
+    position: relative;
+    top: 5px;
+    left: -5px;
+    width: 30px;
+}
+
+ details summary{
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+details summary p{
+    font-weight: 600;
+}
+
+details span{
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(292, 16%, 49%);
+    line-height: 1.5em;
+}
+
+.minus, .plus{
+    width: 20px;
+}
+
+#container hr{
+    opacity: 0.1;
+}
+
+details summary p:hover{
+    color: hsl(293, 79%, 34%);
+    cursor: pointer;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 767.5px) {
+    header{
+        background-image: url(../images/background-pattern-mobile.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 260px;
+        background-position: 0px 0px;
+        margin: 0;
+        width: 100%;
+    }
+
+    #container{
+        width: 70%;
+        margin-top: -110px;
+        padding: 5px 30px 5px 30px;
+        text-align: start;
+    }
+
+    details summary p{
+        width: 230px
+    }
+
+    #container span:nth-of-type(1){
+    font-size: 13px;
+   }
+
+}
